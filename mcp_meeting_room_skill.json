@@ -1,0 +1,29 @@
+{
+  "namespace": "meeting_room",
+  "skills": [
+    {
+      "name": "get_room_status",
+      "description": "현재 모든 회의실의 예약 상태를 조회합니다.",
+      "http_method": "GET",
+      "route": "/status",
+      "parameters": [],
+      "response_format": "application/json"
+    },
+    {
+      "name": "get_room_status_changes",
+      "description": "이전 상태와 비교해 변경된 회의실 예약 정보를 조회합니다.",
+      "http_method": "GET",
+      "route": "/changes",
+      "parameters": [],
+      "response_format": "application/json"
+    },
+    {
+      "name": "force_trigger_room_check",
+      "description": "직접 상태 비교 및 변경 발생 시 최신 저장까지 트리거합니다.",
+      "http_method": "POST",
+      "route": "/trigger-check",
+      "parameters": [],
+      "response_format": "application/json"
+    }
+  ]
+}
