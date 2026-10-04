@@ -8,7 +8,7 @@ import yagmail
 # Load environment variables from .env file
 load_dotenv()
 
-HTML_PATH = "A동_회의실_예약현황_2023-10-03.html"
+HTML_PATH = "A동_회의실_예약현황_2026-10.html"
 PREV_STATUS_PATH = "rooms_status_prev.json"
 
 # Email configuration from environment variables

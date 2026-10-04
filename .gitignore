@@ -39,7 +39,6 @@ share/python-wheels/
 
 # Project-specific
 rooms_status_prev.json
-A동_회의실_예약현황_*.html
 meeting_report_*.html
 
 # OS
